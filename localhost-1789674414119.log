@@ -1,0 +1,44 @@
+react-dom_client.js?v=253de200:15805 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+App.jsx:34 Uncaught ReferenceError: CharacterCard is not defined
+    at App (App.jsx:34:8)
+    at Object.react_stack_bottom_frame (react-dom_client.js?v=253de200:14142:12)
+    at renderWithHooks (react-dom_client.js?v=253de200:4400:19)
+    at updateFunctionComponent (react-dom_client.js?v=253de200:5775:16)
+    at beginWork (react-dom_client.js?v=253de200:6391:20)
+    at runWithFiberInDEV (react-dom_client.js?v=253de200:944:66)
+    at performUnitOfWork (react-dom_client.js?v=253de200:9148:92)
+    at workLoopSync (react-dom_client.js?v=253de200:9044:37)
+    at renderRootSync (react-dom_client.js?v=253de200:9028:6)
+    at performWorkOnRoot (react-dom_client.js?v=253de200:8715:27)
+(anonymous) @ App.jsx:34
+react_stack_bottom_frame @ react-dom_client.js?v=253de200:14142
+renderWithHooks @ react-dom_client.js?v=253de200:4400
+updateFunctionComponent @ react-dom_client.js?v=253de200:5775
+beginWork @ react-dom_client.js?v=253de200:6391
+runWithFiberInDEV @ react-dom_client.js?v=253de200:944
+performUnitOfWork @ react-dom_client.js?v=253de200:9148
+workLoopSync @ react-dom_client.js?v=253de200:9044
+renderRootSync @ react-dom_client.js?v=253de200:9028
+performWorkOnRoot @ react-dom_client.js?v=253de200:8715
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=253de200:9834
+performWorkUntilDeadline @ react-dom_client.js?v=253de200:36
+react-dom_client.js?v=253de200:5451 An error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+defaultOnUncaughtError @ react-dom_client.js?v=253de200:5451
+logUncaughtError @ react-dom_client.js?v=253de200:5480
+runWithFiberInDEV @ react-dom_client.js?v=253de200:944
+lane.callback @ react-dom_client.js?v=253de200:5508
+callCallback @ react-dom_client.js?v=253de200:4273
+commitCallbacks @ react-dom_client.js?v=253de200:4281
+runWithFiberInDEV @ react-dom_client.js?v=253de200:944
+commitLayoutEffectOnFiber @ react-dom_client.js?v=253de200:7520
+flushLayoutEffects @ react-dom_client.js?v=253de200:9444
+commitRoot @ react-dom_client.js?v=253de200:9334
+completeRoot @ react-dom_client.js?v=253de200:9299
+completeRootWhenReady @ react-dom_client.js?v=253de200:8800
+performWorkOnRoot @ react-dom_client.js?v=253de200:8772
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=253de200:9834
+performWorkUntilDeadline @ react-dom_client.js?v=253de200:36
