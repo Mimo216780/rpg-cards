@@ -1,32 +1,32 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 2rem;
+.app {
+  max-width: 28rem;
+  margin: 2rem auto;
   font-family: system-ui, sans-serif;
-  color: #f8fafc;
-  background: #0f172a;
 }
 
-/* Rutnätet för korten */
-.guild-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+.input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-/* Utseende för varje kort */
-.card {
-  padding: 1.2rem;
-  border: 2px solid #38bdf8;
-  border-radius: 0.8rem;
-  background: #1e293b;
+.todo-list {
+  list-style: none;
+  padding: 0;
 }
 
-/* Om hjälten är fallen */
-.card.fallen {
-  border-color: #ef4444;
-  opacity: 0.6;
+.todo {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.75;
+  background: #f1f5f9;
+}
+
+.input-row input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
