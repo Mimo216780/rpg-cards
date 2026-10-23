@@ -3,10 +3,10 @@ import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, text: "Köp kaffe", done: false },
-    { id: 2, text: "Öppna campet", done: true },
-    { id: 3, text: "Pusha till GitHub", done: false },
-    { id: 4, text: "Ny uppgift", done: false },
+    { id: 1, text: "Vakna", done: false },
+    { id: 2, text: "Duscha", done: true },
+    { id: 3, text: "Gå till gymmet", done: false },
+
   ]);
   const [text, setText] = useState("");
 
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <main className="app">
-      <h1>Min ToDo</h1>
+      <h1>Min ToDo App</h1>
       <form className="input-row" onSubmit={addTodo}>
         <input
           type="text"
